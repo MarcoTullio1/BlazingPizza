@@ -1,0 +1,10 @@
+@page "/teste/appstate2"
+@using BlazingPizza.Model
+@inject PizzaSalesState SalesState
+
+<h1>Página 2 - Teste de AppState</h1>
+
+<h3>O valor compartilhado da outra página é: @SalesState.PizzasSoldToday</h3>
+
+<hr />
+<a href="/teste/appstate1">Voltar para a Página 1</a>

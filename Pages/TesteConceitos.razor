@@ -1,0 +1,26 @@
+@page "/teste/parametros-de-componente"
+
+<h1>Teste de Parâmetros de Componente</h1>
+<p>Isto recria exatamente o exemplo do tutorial sobre componentes filho.</p>
+<hr />
+
+<ComponentePizzaSimples PizzaName="Hawaiian" PizzaDescription="The one with pineapple" />
+
+<hr />
+
+<ComponenteToppingSimples
+    Topping="@(new CodigoDoTutorial.PizzaToppingSimples() { Name = "Chilli Sauce", Ingredients = "Three kinds of chilli." })" />
+
+
+@code {
+    // Para não dar conflito com as classes do seu projeto,
+    // definimos a classe do exemplo do tutorial aqui dentro.
+    public static class CodigoDoTutorial
+    {
+        public class PizzaToppingSimples
+        {
+            public string Name { get; set; }
+            public string Ingredients { get; set; }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+<div class="alert alert-info">
+    <h4>Eu sou o Componente Filho/Neto</h4>
+    <p>Recebi esta oferta via Parâmetro em Cascata: <strong>@DealName</strong></p>
+</div>
+
+@code {
+    [CascadingParameter(Name = "DealName")]
+    private string DealName { get; set; }
+}

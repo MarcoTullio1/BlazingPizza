@@ -1,0 +1,19 @@
+@page "/teste/appstate1"
+@using BlazingPizza.Model
+@inject PizzaSalesState SalesState
+
+<h1>Página 1 - Teste de AppState</h1>
+
+<h3>Pizzas vendidas hoje: @SalesState.PizzasSoldToday</h3>
+
+<button class="btn btn-primary" @onclick="IncrementSales">Vender uma Pizza</button>
+
+<hr />
+<a href="/teste/appstate2">Ir para a Página 2</a>
+
+@code {
+    private void IncrementSales()
+    {
+        SalesState.PizzasSoldToday++;
+    }
+}

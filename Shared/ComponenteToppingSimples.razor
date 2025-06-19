@@ -1,0 +1,9 @@
+@using static BlazingPizza.Pages.TesteConceitos.CodigoDoTutorial
+
+<h2>New Topping: @Topping.Name</h2>
+<p>Ingredients: @Topping.Ingredients</p>
+
+@code {
+    [Parameter]
+    public PizzaToppingSimples Topping { get; set; }
+}

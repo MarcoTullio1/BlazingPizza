@@ -8,6 +8,17 @@ namespace BlazingPizza
     /// </summary>
     public class Pizza
     {
+        public int PizzaId { get; set; }
+
+        public string Name { get; set; }
+
+        public string Description { get; set; }
+
+        public decimal Price { get; set; }
+
+        public bool Vegetarian { get; set; }
+
+        public bool Vegan { get; set; }
         public const int DefaultSize = 12;
         public const int MinimumSize = 9;
         public const int MaximumSize = 17;
@@ -38,5 +49,6 @@ namespace BlazingPizza
         {
             return GetTotalPrice().ToString("0.00");
         }
+
     }
 }
