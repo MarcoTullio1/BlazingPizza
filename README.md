@@ -1,7 +1,55 @@
+# Blazing Pizza - Projeto de Estudos
+
+![Demonstração do Blazing Pizza](./assets/Site.png)
+
+## 📝 Descrição
+
+O Blazing Pizza é uma aplicação de uma pizzaria online onde é possível visualizar, customizar e pedir pizzas. O principal objetivo deste repositório é colocar em prática conceitos fundamentais do Blazor, como componentização, acesso a dados, gerenciamento de estado e data binding, utilizando a stack de tecnologias da Microsoft.
+
+## ✨ Funcionalidades
+
+* Visualização de um cardápio de pizzas.
+* Customização de pizzas com diferentes ingredientes.
+* Adição de itens ao carrinho de compras em tempo real.
+* Visualização do total do pedido.
+
+## 🚀 Tecnologias Utilizadas
+
+O projeto foi construído com as seguintes tecnologias:
+
+* **.NET 6**: Plataforma de desenvolvimento.
+* **C#**: Linguagem de programação principal.
+* **Blazor Server**: Framework para construção da interface do usuário.
+* **Entity Framework Core**: ORM para acesso a dados.
+* **SQLite**: Banco de dados utilizado para armazenamento local.
+
+## 🏁 Começando
+
+Para executar este projeto localmente, você precisará ter o SDK do .NET 6 instalado.
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/MarcoTullio1/BlazingPizza.git](https://github.com/MarcoTullio1/BlazingPizza.git)
+    ```
+2.  **Acesse o diretório do projeto:**
+    ```bash
+    cd BlazingPizza
+    ```
+3.  **Restaure as dependências:**
+    ```bash
+    dotnet restore
+    ```
+4.  **Execute a aplicação:**
+    ```bash
+    dotnet run
+    ```
+    A aplicação estará disponível em `https://localhost:5001` ou `http://localhost:5000`.
+
+---
 
 # Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+This project welcomes contributions and suggestions. Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
 
