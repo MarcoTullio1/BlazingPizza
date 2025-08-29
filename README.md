@@ -1,4 +1,4 @@
-# Blazing Pizza - Projeto de Estudos
+# Blazing Pizza
 
 ![Demonstração do Blazing Pizza](./assets/Site.png)
 
