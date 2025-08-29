@@ -19,9 +19,9 @@ namespace BlazingPizza
         public bool Vegetarian { get; set; }
 
         public bool Vegan { get; set; }
-        public const int DefaultSize = 12;
-        public const int MinimumSize = 9;
-        public const int MaximumSize = 17;
+        public const int DefaultSize = 90;
+        public const int MinimumSize = 80;
+        public const int MaximumSize = 120;
 
         public int Id { get; set; }
 
